@@ -63,3 +63,11 @@ h2 {
 #result::-webkit-scrollbar {
   width: 1rem;
 }
+
+
+.setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
