@@ -26,4 +26,6 @@ clipboardEl.addEventListener('click', () => {
 generateEl.addEventListener('click', () => {
     const length = +lengthEl.value
     const hasLower = lowercaseEl.checked
+    const hasUpper = uppercaseEl.checked
+    const hasNumber = numbersEl.checked
 })
