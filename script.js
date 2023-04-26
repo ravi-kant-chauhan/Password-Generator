@@ -44,6 +44,9 @@ function generatePassword(lower, upper, number, symbol, length) {
         return ''
     }
 
+    function getRandomLower() {
+      return String.fromCharCode(Math.floor(Math.random() * 26) + 97)
+  }
     for(let i = 0; i < length; i += typesCount) {
         typesArr.forEach(type => {
             const funcName = Object.keys(type)[0]
