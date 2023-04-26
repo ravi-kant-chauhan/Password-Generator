@@ -38,5 +38,9 @@ generateEl.addEventListener('click', () => {
 function generatePassword(lower, upper, number, symbol, length) {
   let generatedPassword = ''
   const typesCount = lower + upper + number + symbol
+  
 
+  const finalPassword = generatedPassword.slice(0, length)
+
+  return finalPassword
 }
