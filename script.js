@@ -68,3 +68,8 @@ function getRandomUpper() {
 function getRandomNumber() {
     return String.fromCharCode(Math.floor(Math.random() * 10) + 48)
 }
+
+
+function getRandomSymbol() {
+    return symbols[Math.floor(Math.random() * symbols.length)]
+}
